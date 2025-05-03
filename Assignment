@@ -1,0 +1,18 @@
+Explain the commant: "git reset"
+Git reset command is a powerful and versatile command in  git that is used to undo changes in your repository
+
+git reset [mode] [commit]
+
+Types of options:
+> soft (it reset the HEAD to the specified commit but leaves the staging index and working directory unchanged)
+
+git reset --soft HEAD~1
+
+> mixed (Rests the "HEAD: to the specified commit and rests the staging area to match that commit but does not change the working directory)
+
+git reset HEAD~1
+
+> Hard
+mode rests the HEAD the staging area and the working directory to the specified commit
+
+git reset --Hard HEAD~1
